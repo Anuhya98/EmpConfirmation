@@ -1,0 +1,38 @@
+{
+  "ipo": [
+    {
+      "id": 101,
+      "companyname": "cognizant",
+      "lse": [
+        "BSE",
+        "NSE"
+      ],
+      "pps": 5000,
+      "tnos": 85,
+      "odate": 5,
+      "remarks": "Good"
+    },
+    {
+      "id": 104,
+      "companyname": "komgtterkket",
+      "lse": [
+        "BSE"
+      ],
+      "pps": 4454,
+      "tnos": 125,
+      "odate": "2020-02-05",
+      "remarks": "ghrthr"
+    },
+    {
+      "id": 105,
+      "companyname": "sasdaasdas",
+      "lse": [
+        "BSE"
+      ],
+      "pps": 878943,
+      "tnos": 78,
+      "odate": "2019-02-04",
+      "remarks": "wdqwdqw"
+    }
+  ]
+}

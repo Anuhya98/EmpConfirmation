@@ -1,0 +1,57 @@
+{
+  "company": [
+    {
+      "id": 102,
+      "companyname": "cognizant",
+      "turnover": 564588888,
+      "ceo": "prudhvi",
+      "bod": "raju",
+      "lse": [
+        "BSE",
+        "NSE"
+      ],
+      "sector": "technology",
+      "boc": "It is very Good",
+      "stock": "cog123"
+    },
+    {
+      "id": 103,
+      "companyname": "archi",
+      "turnover": 4555555,
+      "ceo": "prudhvi",
+      "bod": "raju",
+      "lse": [
+        "NSE"
+      ],
+      "sector": "westline",
+      "boc": "it is bad",
+      "stock": "Ar123"
+    },
+    {
+      "id": 104,
+      "companyname": "archi",
+      "turnover": 7895662,
+      "ceo": "venkat",
+      "bod": "Ganesh",
+      "lse": [
+        "BSE"
+      ],
+      "sector": "asdfg",
+      "boc": "nfdsknfdsjnfskdnfs",
+      "stock": "aety5"
+    },
+    {
+      "id": 105,
+      "companyname": "Hcl",
+      "turnover": 8456321112121,
+      "ceo": "mahesh",
+      "bod": "anil",
+      "lse": [
+        "BSE"
+      ],
+      "sector": "technology",
+      "boc": "dasbjdhjasdjasdjasfa",
+      "stock": "hcl12"
+    }
+  ]
+}

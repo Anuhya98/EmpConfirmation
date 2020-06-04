@@ -1,0 +1,34 @@
+<table class="table ">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>EmpId</th>
+        <th>Action</th>
+    </tr>
+    <tr *ngFor="let user of users">
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.empId}}</td>
+        <td>
+            <button class="btn btn-danger" (click)="deleteUser(user.id)">Delete</button>&nbsp;&nbsp;&nbsp;
+        <button class="btn btn-warning" (click)="updateUser(user)">Update</button></td>
+    </tr>
+</table>
+<section id="intro"  >
+    <div class="intro-c ">
+        <div class="text-center">
+            <a routerLink="/register" class="btn-get-started scrollto">Add User</a>
+            <a routerLink="/admin-land" class="btn-get-startedd scrollto  ">Back</a>
+         </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+

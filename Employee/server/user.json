@@ -1,0 +1,32 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "prudhvi",
+      "email": "prudhvieethakota123@gmail.com",
+      "password": "prudhvi1437",
+      "cpassword": "prudhvi1437"
+    },
+    {
+      "id": 2,
+      "name": "venkat",
+      "email": "venkat@yahoo.cpom",
+      "password": "venkat",
+      "cpassword": "venkat"
+    },
+    {
+      "id": 3,
+      "name": "mahesh",
+      "email": "ma@gmail.com",
+      "password": "mahesh",
+      "cpassword": "mahesh"
+    },
+    {
+      "id": 4,
+      "name": "qqqqqqqqqqq",
+      "email": "suresh@gmail.com",
+      "password": "7894bnjmjh",
+      "cpassword": "789bbhjjj"
+    }
+  ]
+}

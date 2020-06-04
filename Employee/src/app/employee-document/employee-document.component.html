@@ -1,0 +1,47 @@
+<section id="intro">
+    <div class="container">
+
+      <div class="card bg-light w-100 h-50 mt-5 " >
+        <div class="card-body">
+          <h2>Employment Agreement</h2>
+    <form [formGroup]="updateUserForm" (ngSubmit)="sign()">
+      <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" formControlName="name"  placeholder="Enter Name" name="name">
+        </div>
+        <div class="form-group">
+          <label for="empId">EmpId:</label>
+          <input type="number" class="form-control" id="empId" formControlName="empId"  placeholder="Enter empId" name="empId">
+        </div>
+        <p style="color:black  "><i>Employee Agreement specifies terms and conditions of 
+          employment of an employee in the organisation he is or will be working for. 
+          Employment Agreement is a contract commonly entered into when a business hires a 
+          new employee. It can be used for a range of different employment types, including 
+          full time, part time and fixed term or Contract.
+          This Agreement sets out all of the terms of employment, including job duties, salary
+           and benefits, work hours, confidentiality, annual leave and various other key terms.
+          In many cases, once an employer chooses to take on a new employee, the parties want 
+          to get started without delay. The employer may, therefore, wish to first provide the
+           employee with a letter which spells out some of the key terms more briefly. In these
+            situations, employers may wish to use a Letter of Offer for Employment, and then
+             to follow it up with this Employment Agreement.
+          An Employment Agreement is not always suitable for use by contractors.
+           The contractors are recommended to use another legal agreement called Service Agreement.</i></p>
+           <div><br/></div>
+           <div><br/></div>
+           <div class="custom-control custom-checkbox">
+            <input type="checkbox" name="accept" id="accept" class="custom-control-input"
+                formControlName="accept">
+            <label for="accept" class="custom-control-label">I agree to all the above mentioned conditions and thereby sign the document.</label>
+        </div>
+        <div><br/></div>
+      <button type="submit"  class="btn btn-success" >Sign</button>
+      
+    </form>
+      </div>  
+    </div>
+  </div>
+  
+</section>
+
+

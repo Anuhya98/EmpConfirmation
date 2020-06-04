@@ -1,0 +1,22 @@
+debug: true
+spring:
+  application:
+    name: employeeconfirmation-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/cts
+    username: root
+    password: admin
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8008
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+  
